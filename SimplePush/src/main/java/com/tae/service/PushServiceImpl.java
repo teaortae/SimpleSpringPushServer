@@ -8,7 +8,7 @@ import com.google.android.gcm.server.Sender;
 
 @Service
 public class PushServiceImpl implements PushService {
-	private static final String APIKEY = "AIzaSyDu10iHfYrHjTM8SrPLDicvxoG7bnGtNqw";
+	private static final String APIKEY = "YOUR_GOOGLE_APIKEY";
 
 	@Override
 	public boolean SendPush(String regid, String msg) throws Exception {
