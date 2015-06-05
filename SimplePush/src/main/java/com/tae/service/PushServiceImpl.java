@@ -2,10 +2,11 @@ package com.tae.service;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
-
+import org.springframework.stereotype.Service;
 import com.google.android.gcm.server.Message;
 import com.google.android.gcm.server.Sender;
 
+@Service
 public class PushServiceImpl implements PushService {
 	private static final String APIKEY = "AIzaSyDu10iHfYrHjTM8SrPLDicvxoG7bnGtNqw";
 

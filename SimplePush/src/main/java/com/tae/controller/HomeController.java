@@ -28,6 +28,6 @@ public class HomeController {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return "redirect:index";
+		return "redirect:index.do";
 	}
 }

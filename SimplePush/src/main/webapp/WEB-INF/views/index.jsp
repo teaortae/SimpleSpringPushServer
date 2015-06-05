@@ -4,7 +4,7 @@
 <title>Simple GCM push server</title>
 </head>
 <body>
-	<form action="/simplepush/send">
+	<form action="/SimplePush/send.do">
 		<input type="text" name="regid" id="regid"> <br>
 		<textarea rows="3" cols="50" id="msg" name="msg"></textarea>
 		<br> <input type="submit" value="푸시 보내기">
